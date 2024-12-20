@@ -1,0 +1,7 @@
+% Load or define your trained Tiny16 Vision Transformer model
+modelData = load('netTransformerbertlk1.mat'); % Replace with your model file
+model = modelData.netTransformerbertlk1; % Adjust based on your saved structure
+
+X = imread("laika_grass.jpg");
+inputSize = net.Layers(1).InputSize(1:2);
+X = imresize(X,inputSize);
