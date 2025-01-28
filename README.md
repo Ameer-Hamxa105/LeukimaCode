@@ -54,8 +54,6 @@ ________________________________________
 •	Adaptive parameter selection for improved generalization.
 ________________________________________
 📚 Citation
-If you use this repository for academic or research purposes, please cite the following paper:
-[Include Paper Citation Information Here]
-________________________________________
-Let me know if you'd like to add more details or make any revisions!
+If you use this repository for academic or research purposes, please cite the paper
+
 
