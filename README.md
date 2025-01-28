@@ -75,7 +75,12 @@ ________________________________________
 •	Adaptive parameter selection for improved generalization.
 ________________________________________
 
+**Tip**
+
+All the trained models are available in the github. 
+
 📚** Citation**
 If you use this repository for academic or research purposes, please cite paper
+
 
 
