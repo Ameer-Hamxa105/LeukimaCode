@@ -2,6 +2,7 @@ ________________________________________
 **Leukemia Classification Using Deep Learning and Grey Wolf Optimization**
 
 This repository implements a novel approach for leukemia classification and hematologic malignancy detection. The system uses advanced image preprocessing, customized neural network models, and hyperparameter tuning to achieve state-of-the-art results. The code is developed in MATLAB and demonstrates an end-to-end pipeline for leukemia image classification.
+
 📘 **Project Overview**
 Leukemia is a life-threatening cancer characterized by the abnormal growth of white blood cells. This project proposes a robust automatic framework for accurate leukemia detection using image processing and deep learning techniques. Key components of the solution include:
 •	Customized CNN Model (PIDSAN4): A novel neural network architecture for efficient image classification.
@@ -9,6 +10,7 @@ Leukemia is a life-threatening cancer characterized by the abnormal growth of wh
 •	Hyperparameter Tuning: Optimized using Grey Wolf Optimization (GWO) to improve model accuracy and performance.
 •	Contrast Enhancement: Image preprocessing with hyperbolic sine and dehazing functions.
 ________________________________________
+
 🧑💻** Implementation Steps**
 Step 1: Clone the Repository
 git clone https://github.com/Ameer-Hamxa105/LeukimaCode.git
@@ -35,6 +37,7 @@ Download the dataset from this link:
 4.	Execute the SimpleModel.m file for training the customized PIDSAN4 model and save.
 5.	Execute the bertvit.m file for training the ViT model and save.
 6.	Open the resting Folder and Execute for the results
+   
 **Step 5: Hyperparameter Tuning**
 The GWO-based tuning is automatically applied during the training process to select optimal hyperparameters, such as learning rate, dropout, and activation functions.
 **Step 6: Evaluate the Model**
@@ -45,6 +48,7 @@ After training, the code outputs performance metrics, including:
 •	F1-score
 •	Precision
 ________________________________________
+
 📊 **Results**
 The proposed framework achieved the following performance metrics:
 •	Accuracy: 91.3%
@@ -52,6 +56,7 @@ The proposed framework achieved the following performance metrics:
 •	Specificity: 92.5%
 •	F1-score: 89.4%
 ________________________________________
+
 ⚙️** Model Details**
 1. PIDSAN4 Architecture
 •	Contains 107 layers optimized for recognizing leukemia cells with irregular shapes.
@@ -61,6 +66,7 @@ ________________________________________
 3. Hyperparameter Tuning with GWO
 •	Adaptive parameter selection for improved generalization.
 ________________________________________
+
 📚** Citation**
 If you use this repository for academic or research purposes, please cite paper
 
